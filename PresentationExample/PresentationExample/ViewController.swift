@@ -9,6 +9,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet private weak var textView: UITextView!
+    @IBOutlet private weak var textField: UITextField!
 }
-
